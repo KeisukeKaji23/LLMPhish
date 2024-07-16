@@ -51,3 +51,5 @@ def main(role, website_type, upper_limit):
 
 
 main("expert", "other", 100)
+main("common_person", "other", 100)
+main("common_person_with_knowledge", "other", 100)
