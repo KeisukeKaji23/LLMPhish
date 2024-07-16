@@ -45,7 +45,7 @@ def main(role, website_type, upper_limit):
                     website_type,
                     site_visual_dict,
                     model_name,
-                    f"{root_dir}/{role}_{website_type}_result.json",
+                    f"{root_dir}/results/{role}_{website_type}_result.json",
                     upper_limit,
                 )
 
