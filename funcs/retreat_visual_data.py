@@ -80,6 +80,8 @@ def retreat_visual_data(ss_dir, output_file, type):
         error = set()
 
         for screenshot_path in screenshot_paths:
+            if ".gitkeep" in str(screenshot_path):
+                continue
             image_name = screenshot_path.name
             if image_name in site_visual_dict:
                 continue
